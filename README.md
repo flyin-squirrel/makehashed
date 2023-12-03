@@ -17,19 +17,22 @@ Where:
 Note: The -s and -c options are mutually exclusive. Only one can be used at a time.
 
 Example:
-	python hashed.py path/to/yourfile.txt sha256
+	
+		python hashed.py path/to/yourfile.txt sha256
 		
-		This will print the SHA256 hash of yourfile.txt to std out.
+	This will print the SHA256 hash of yourfile.txt to std out.
 
 Example:
-	python hashed.py path/to/yourfile.txt sha256 -s
+	
+		python hashed.py path/to/yourfile.txt sha256 -s
 
-		This will print the SHA256 hash of the file yourfile.txt and save it to hash.txt.
+	This will print the SHA256 hash of the file yourfile.txt and save it to hash.txt.
 
 Example:
-	python hashed.py path/to/yourfile.txt sha256 -c
+	
+		python hashed.py path/to/yourfile.txt sha256 -c
 
-		This will print the SHA256 hash of the file yourfile.txt and compare it with the existing hashes in hash.txt.
+	This will print the SHA256 hash of the file yourfile.txt and compare it with the existing hashes in hash.txt.
 	
 Supported algorithms:
 	sha1, sha224, sha256, sha384, sha512, sha3_224, sha3_256, sha3_384, sha3_512, shake_128, shake_256, blake2b, blake2s, md5.

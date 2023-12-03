@@ -9,7 +9,7 @@ This module is used from the command line like this:
 	python hashed.py <fpath> <alg> [-s | -c]
 
 Where:
-	\<fpath\> is the path to your target file.
+	\<fpath\> is the path to your target file. \n
 	
 	\<alg\> is the hash algorithm you'd like to use. 
 	

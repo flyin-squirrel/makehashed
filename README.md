@@ -5,11 +5,11 @@ Python module which allows you to generate file hash values using the hashlib li
 ## Usage
 
 This module is used from the command line like this:
-
+	```
 	python hashed.py <fpath> <alg> [-s | -c]
-
+	```
 Where:
-	\<fpath\> is the path to your target file. \n
+	\<fpath\> is the path to your target file.
 	
 	\<alg\> is the hash algorithm you'd like to use. 
 	
@@ -20,21 +20,21 @@ Where:
 Note: The -s and -c options are mutually exclusive. Only one can be used at a time.
 
 Example:
-	
+	```
 	python hashed.py path/to/yourfile.txt sha256
-		
+	```	
 This will print the SHA256 hash of yourfile.txt to std out.
 
 Example:
-	
+	```
 	python hashed.py path/to/yourfile.txt sha256 -s
-
+	```
 This will print the SHA256 hash of the file yourfile.txt and save it to hash.txt.
 
 Example:
-	
+	```
 	python hashed.py path/to/yourfile.txt sha256 -c
-
+	```
 This will print the SHA256 hash of the file yourfile.txt and compare it with the existing hashes in hash.txt.
 	
 ### Supported algorithms

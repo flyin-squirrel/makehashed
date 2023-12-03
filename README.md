@@ -16,22 +16,22 @@ Where:
 
 _Note: The -s and -c options are mutually exclusive. Only one can be used at a time._
 
-Example:
+Example:  
 	```
 	python hashed.py path/to/yourfile.txt sha256
-	```	
+	```  	
 _This will print the SHA256 hash of yourfile.txt to std out._
 
-Example:
+Example:  
 	```
 	python hashed.py path/to/yourfile.txt sha256 -s
-	```
+	```  
 _This will print the SHA256 hash of the file yourfile.txt and append it to hash.txt._
 
-Example:
+Example:  
 	```
 	python hashed.py path/to/yourfile.txt sha256 -c
-	```
+	```  
 _This will print the SHA256 hash of the file yourfile.txt and compare it with the existing hashes in hash.txt._
 	
 ### Supported algorithms

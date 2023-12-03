@@ -8,7 +8,7 @@ This module is used from the command line like this:
 
 	python hashed.py <fpath> <alg> [-s | -c]
 
-Where:
+Where:  
 `<fpath>` is the path to your target file,  
 `<alg>` is the hash algorithm you'd like to use,  
 `-s` or `--save` is optional and stores the hash in a file named hash.txt,  

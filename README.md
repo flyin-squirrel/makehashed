@@ -26,7 +26,7 @@ Example:
 	```
 	python hashed.py path/to/yourfile.txt sha256 -s
 	```
-This will print the SHA256 hash of the file yourfile.txt and save it to hash.txt.
+This will print the SHA256 hash of the file yourfile.txt and append it to hash.txt.
 
 Example:
 	```

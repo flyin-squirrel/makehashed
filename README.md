@@ -9,10 +9,13 @@ This module is used from the command line like this:
 	python hashed.py <fpath> <alg> [-s | -c]
 
 Where:
-	<fpath> is the path to your target file.
-	<alg> is the hash algorithm you'd like to use. 
-	-s or --save is optional, stores the hash in a file named hash.txt
-	-c or --compare is optional, compares the hash with the stored hashes in hash.txt
+	> <fpath> is the path to your target file.
+	>
+	> <alg> is the hash algorithm you'd like to use. 
+	>
+	> -s or --save is optional, stores the hash in a file named hash.txt
+	>
+	> -c or --compare is optional, compares the hash with the stored hashes in hash.txt
 
 Note: The -s and -c options are mutually exclusive. Only one can be used at a time.
 

@@ -5,9 +5,9 @@ Python module which allows you to generate file hash values using the hashlib li
 ## Usage
 
 This module is used from the command line like this:
-	```
+
 	python hashed.py <fpath> <alg> [-s | -c]
-	```
+
 Where:
 <fpath> is the path to your target file.	
 <alg> is the hash algorithm you'd like to use. 

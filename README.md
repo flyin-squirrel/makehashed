@@ -14,7 +14,7 @@ Where:
 `-s` or `--save` is optional and stores the hash in a file named hash.txt,  
 `-c` or `--compare` is optional and compares the hash with the stored hashes in hash.txt.
 
-Note: The -s and -c options are mutually exclusive. Only one can be used at a time.
+**Note**: The -s and -c options are mutually exclusive. Only one can be used at a time.
 
 Example:  
 	```

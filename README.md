@@ -19,7 +19,7 @@ _Note: The -s and -c options are mutually exclusive. Only one can be used at a t
 Example:  
 	```
 	python hashed.py path/to/yourfile.txt sha256
-	```  	
+	```  
 _This will print the SHA256 hash of yourfile.txt to std out._
 
 Example:  

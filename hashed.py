@@ -18,14 +18,6 @@ def main():
     saves hash with -s option, 
     or compares hash with -c option.
     """
-# Please note: Blackbox AI was used to troubleshoot and build parts of this module.
-# Specifically - 
-# comphsh function's ability to compare the current hash value "hashdoc" to previously
-# stored hash values in hash.txt and return results 1 or 2 which are then passed to 
-# hashed.py. The idea to read the file "fpath" in chucks of 4096 bytes to ease memory use.
-#
-# Comments have been added to show functionality of each line in this module with special
-# emphasis placed on explaining the parts I had help with.
 
 # argparse
 

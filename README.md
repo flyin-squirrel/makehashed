@@ -37,12 +37,3 @@ _This will print the SHA256 hash of the file yourfile.txt and compare it with th
 ### Supported algorithms
 
 sha1, sha224, sha256, sha384, sha512, sha3_224, sha3_256, sha3_384, sha3_512, shake_128, shake_256, blake2b, blake2s, md5.
-
-### Please Note
-
-Blackbox AI was used to troubleshoot and build parts of this module.
-
-Specifically:
-comphsh function's ability to compare the current hash value "hashdoc" to previously
-stored hash values and return results 1 or 2 which are then passed to hashed.py.
-The idea to read the file "fpath" in chucks of 4096 bytes to ease memory use.

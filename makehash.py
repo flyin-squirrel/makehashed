@@ -8,14 +8,6 @@ Functions for producing, saving and comparing file hashes:
 # import haslib module
 import hashlib
 
-# Please note: Blackbox AI was used to troubleshoot and build parts of this module.
-# Specifically:
-# comphsh function's ability to compare the current hash value "hashdoc" to previously
-# stored hash values and return results 1 or 2 which are then passed to hashed.py. 
-# The idea to iterate the file "fpath" in chucks of 4096 bytes to ease memory use.
-#
-# Comments have been added to show functionality of each line in this module with special
-# emphasis placed on explaining the parts I had help with.
 
 # define fhash function; args fpath and alg needed
 def fhash(fpath, alg):
